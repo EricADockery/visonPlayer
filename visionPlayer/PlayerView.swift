@@ -136,8 +136,3 @@ private extension PlayerView {
     
     func sendHeartbeat(currentTime: Double) {}
 }
-
-
-#Preview {
-    PlayerView(playableItem: PlayableItem(title: "adsf", location: "asdf"))
-}
