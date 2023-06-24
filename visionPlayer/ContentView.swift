@@ -27,7 +27,7 @@ struct ContentView: View {
     }
 }
 
-extension ContentView2 {
+extension ContentView {
     
     func onSelection(item: PlayableItem) {
         openWindow(id: "Player", value: item)
@@ -36,5 +36,5 @@ extension ContentView2 {
 
 
 #Preview {
-        ContentView2()
+        ContentView()
 }
