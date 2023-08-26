@@ -21,9 +21,6 @@ struct PlayerView: View {
             .onAppear {
                 updatePlayerView(item: playableItem)
             }
-            .onChange(of: scenePhase) {
-                adjustAudio(isFocused: scenePhase == .active)
-            }
             .onDisappear {
                 player.pause()
                 player.replaceCurrentItem(with: nil)
@@ -44,10 +41,6 @@ extension PlayerView {
 
 // MARK: Private methods
 private extension PlayerView {
-    
-    func adjustAudio(isFocused: Bool) {
-        player.isMuted = !isFocused
-    }
 
     func setUpObservers() {
         

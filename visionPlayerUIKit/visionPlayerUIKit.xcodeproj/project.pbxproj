@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074C04F02A9A26B700D82289 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 074C04EF2A9A26B700D82289 /* RealityKitContent */; };
+		074C04F22A9A26B700D82289 /* visionPlayerUIKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074C04F12A9A26B700D82289 /* visionPlayerUIKitApp.swift */; };
+		074C04F42A9A26B700D82289 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074C04F32A9A26B700D82289 /* ContentView.swift */; };
+		074C04F62A9A26B700D82289 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074C04F52A9A26B700D82289 /* ImmersiveView.swift */; };
+		074C04F82A9A26B800D82289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074C04F72A9A26B800D82289 /* Assets.xcassets */; };
+		074C04FB2A9A26B800D82289 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074C04FA2A9A26B800D82289 /* Preview Assets.xcassets */; };
+		074C05062A9A26B800D82289 /* visionPlayerUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074C05052A9A26B800D82289 /* visionPlayerUIKitTests.swift */; };
+		074C05132A9A279B00D82289 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074C050F2A9A279B00D82289 /* ContentViewModel.swift */; };
+		074C05142A9A279B00D82289 /* MultiPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074C05102A9A279B00D82289 /* MultiPlayerApp.swift */; };
+		074C05152A9A279B00D82289 /* PlayableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074C05112A9A279B00D82289 /* PlayableItem.swift */; };
+		074C05162A9A279B00D82289 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074C05122A9A279B00D82289 /* PlayerView.swift */; };
+		074C05192A9A27A800D82289 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074C05172A9A27A800D82289 /* SquareView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		074C05022A9A26B800D82289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 074C04E22A9A26B600D82289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 074C04E92A9A26B700D82289;
+			remoteInfo = visionPlayerUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074C04EA2A9A26B700D82289 /* visionPlayerUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visionPlayerUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074C04EE2A9A26B700D82289 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		074C04F12A9A26B700D82289 /* visionPlayerUIKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visionPlayerUIKitApp.swift; sourceTree = "<group>"; };
+		074C04F32A9A26B700D82289 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		074C04F52A9A26B700D82289 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		074C04F72A9A26B800D82289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		074C04FA2A9A26B800D82289 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		074C04FC2A9A26B800D82289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074C05012A9A26B800D82289 /* visionPlayerUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = visionPlayerUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		074C05052A9A26B800D82289 /* visionPlayerUIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visionPlayerUIKitTests.swift; sourceTree = "<group>"; };
+		074C050F2A9A279B00D82289 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		074C05102A9A279B00D82289 /* MultiPlayerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPlayerApp.swift; sourceTree = "<group>"; };
+		074C05112A9A279B00D82289 /* PlayableItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayableItem.swift; sourceTree = "<group>"; };
+		074C05122A9A279B00D82289 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		074C05172A9A27A800D82289 /* SquareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074C04E72A9A26B700D82289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074C04F02A9A26B700D82289 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074C04FE2A9A26B800D82289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074C04E12A9A26B600D82289 = {
+			isa = PBXGroup;
+			children = (
+				074C04EC2A9A26B700D82289 /* visionPlayerUIKit */,
+				074C04ED2A9A26B700D82289 /* Packages */,
+				074C05042A9A26B800D82289 /* visionPlayerUIKitTests */,
+				074C04EB2A9A26B700D82289 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		074C04EB2A9A26B700D82289 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				074C04EA2A9A26B700D82289 /* visionPlayerUIKit.app */,
+				074C05012A9A26B800D82289 /* visionPlayerUIKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		074C04EC2A9A26B700D82289 /* visionPlayerUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				074C04F12A9A26B700D82289 /* visionPlayerUIKitApp.swift */,
+				074C04F32A9A26B700D82289 /* ContentView.swift */,
+				074C05172A9A27A800D82289 /* SquareView.swift */,
+				074C050F2A9A279B00D82289 /* ContentViewModel.swift */,
+				074C05102A9A279B00D82289 /* MultiPlayerApp.swift */,
+				074C05112A9A279B00D82289 /* PlayableItem.swift */,
+				074C05122A9A279B00D82289 /* PlayerView.swift */,
+				074C04F52A9A26B700D82289 /* ImmersiveView.swift */,
+				074C04F72A9A26B800D82289 /* Assets.xcassets */,
+				074C04FC2A9A26B800D82289 /* Info.plist */,
+				074C04F92A9A26B800D82289 /* Preview Content */,
+			);
+			path = visionPlayerUIKit;
+			sourceTree = "<group>";
+		};
+		074C04ED2A9A26B700D82289 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				074C04EE2A9A26B700D82289 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		074C04F92A9A26B800D82289 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				074C04FA2A9A26B800D82289 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		074C05042A9A26B800D82289 /* visionPlayerUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				074C05052A9A26B800D82289 /* visionPlayerUIKitTests.swift */,
+			);
+			path = visionPlayerUIKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074C04E92A9A26B700D82289 /* visionPlayerUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074C05092A9A26B800D82289 /* Build configuration list for PBXNativeTarget "visionPlayerUIKit" */;
+			buildPhases = (
+				074C04E62A9A26B700D82289 /* Sources */,
+				074C04E72A9A26B700D82289 /* Frameworks */,
+				074C04E82A9A26B700D82289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = visionPlayerUIKit;
+			packageProductDependencies = (
+				074C04EF2A9A26B700D82289 /* RealityKitContent */,
+			);
+			productName = visionPlayerUIKit;
+			productReference = 074C04EA2A9A26B700D82289 /* visionPlayerUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		074C05002A9A26B800D82289 /* visionPlayerUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074C050C2A9A26B800D82289 /* Build configuration list for PBXNativeTarget "visionPlayerUIKitTests" */;
+			buildPhases = (
+				074C04FD2A9A26B800D82289 /* Sources */,
+				074C04FE2A9A26B800D82289 /* Frameworks */,
+				074C04FF2A9A26B800D82289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				074C05032A9A26B800D82289 /* PBXTargetDependency */,
+			);
+			name = visionPlayerUIKitTests;
+			productName = visionPlayerUIKitTests;
+			productReference = 074C05012A9A26B800D82289 /* visionPlayerUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		074C04E22A9A26B600D82289 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					074C04E92A9A26B700D82289 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					074C05002A9A26B800D82289 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 074C04E92A9A26B700D82289;
+					};
+				};
+			};
+			buildConfigurationList = 074C04E52A9A26B600D82289 /* Build configuration list for PBXProject "visionPlayerUIKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 074C04E12A9A26B600D82289;
+			productRefGroup = 074C04EB2A9A26B700D82289 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				074C04E92A9A26B700D82289 /* visionPlayerUIKit */,
+				074C05002A9A26B800D82289 /* visionPlayerUIKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		074C04E82A9A26B700D82289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074C04FB2A9A26B800D82289 /* Preview Assets.xcassets in Resources */,
+				074C04F82A9A26B800D82289 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074C04FF2A9A26B800D82289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074C04E62A9A26B700D82289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074C05132A9A279B00D82289 /* ContentViewModel.swift in Sources */,
+				074C04F42A9A26B700D82289 /* ContentView.swift in Sources */,
+				074C05162A9A279B00D82289 /* PlayerView.swift in Sources */,
+				074C05152A9A279B00D82289 /* PlayableItem.swift in Sources */,
+				074C04F22A9A26B700D82289 /* visionPlayerUIKitApp.swift in Sources */,
+				074C04F62A9A26B700D82289 /* ImmersiveView.swift in Sources */,
+				074C05142A9A279B00D82289 /* MultiPlayerApp.swift in Sources */,
+				074C05192A9A27A800D82289 /* SquareView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074C04FD2A9A26B800D82289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074C05062A9A26B800D82289 /* visionPlayerUIKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		074C05032A9A26B800D82289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 074C04E92A9A26B700D82289 /* visionPlayerUIKit */;
+			targetProxy = 074C05022A9A26B800D82289 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		074C05072A9A26B800D82289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		074C05082A9A26B800D82289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		074C050A2A9A26B800D82289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"visionPlayerUIKit/Preview Content\"";
+				DEVELOPMENT_TEAM = JN6SRFFEJW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.visionPlayerUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		074C050B2A9A26B800D82289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"visionPlayerUIKit/Preview Content\"";
+				DEVELOPMENT_TEAM = JN6SRFFEJW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.visionPlayerUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		074C050D2A9A26B800D82289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JN6SRFFEJW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.visionPlayerUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/visionPlayerUIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/visionPlayerUIKit";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		074C050E2A9A26B800D82289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JN6SRFFEJW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.visionPlayerUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/visionPlayerUIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/visionPlayerUIKit";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		074C04E52A9A26B600D82289 /* Build configuration list for PBXProject "visionPlayerUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074C05072A9A26B800D82289 /* Debug */,
+				074C05082A9A26B800D82289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074C05092A9A26B800D82289 /* Build configuration list for PBXNativeTarget "visionPlayerUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074C050A2A9A26B800D82289 /* Debug */,
+				074C050B2A9A26B800D82289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074C050C2A9A26B800D82289 /* Build configuration list for PBXNativeTarget "visionPlayerUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074C050D2A9A26B800D82289 /* Debug */,
+				074C050E2A9A26B800D82289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		074C04EF2A9A26B700D82289 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 074C04E22A9A26B600D82289 /* Project object */;
+}
