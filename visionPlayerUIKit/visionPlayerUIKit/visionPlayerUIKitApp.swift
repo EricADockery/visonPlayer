@@ -25,6 +25,6 @@ struct visionPlayerUIKitApp: App {
         ImmersiveSpace(id: "ImmersiveSpace") {
             ImmersiveView()
         }
-        .immersionStyle(selection: $immersionStyle, in: .mixed)
+        .immersionStyle(selection: $immersionStyle, in: .full)
     }
 }
