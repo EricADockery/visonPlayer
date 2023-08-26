@@ -152,8 +152,11 @@ private extension PlayerViewController {
         let contentView = ContentView()
         let viewCtrl = UIHostingController(rootView: contentView)
         viewCtrl.title = "Other Things to watch"
+        let immersionModeView = ImmersionModesView()
+        let immersionViewController = UIHostingController(rootView: immersionModeView)
         playerViewController?.customInfoViewControllers = [
-            viewCtrl
+            viewCtrl,
+            immersionViewController
         ]
         
         playerViewController?.contextualActions = [UIAction(image: UIImage(systemName: "circle"), handler: { _ in
