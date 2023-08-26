@@ -46,7 +46,7 @@ extension PlayerView {
 private extension PlayerView {
     
     func adjustAudio(isFocused: Bool) {
-        player.isMuted = isFocused
+        player.isMuted = !isFocused
     }
 
     func setUpObservers() {
